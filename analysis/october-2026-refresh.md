@@ -28,4 +28,4 @@ The [consensus matrix](cross-report-trends.md) retains its September baseline, i
 
 ## Reproducibility
 
-See [verification ledger](../SOURCE-VERIFICATION-2026-10.md), [source register](../SOURCES.md), and [change report](../CHANGELOG.md). New English/Japanese pairs share dates, source URLs, and limitations. No configuration, commit, push, or PR is part of this update.
+See [verification ledger](../SOURCE-VERIFICATION-2026-10.md), [source register](../SOURCES.md), and [change report](../CHANGELOG.md). New English/Japanese pairs share dates, source URLs, and limitations. The evidence review leaves source-monitor configuration unchanged. Subsequent integration and publication are recorded in the change report and Git/PR history.

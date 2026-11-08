@@ -36,6 +36,7 @@ No private files or credentials are included. Source-monitor configuration is un
 - Preserve PR #2's bilingual October conference evidence refresh, Black Hat evidence correction, and source/README links alongside the 36-file draft.
 - The evidence cutoff remains October 31. A limited November 8 source recheck and extraction limits are recorded in the verification ledger; unchanged November 7 claims are not labeled newly verified.
 - No source-monitor schedule/configuration changes or manual source-monitor execution.
-- Final local validation and PR CI are pending at this preparation stage; previous check results above are historical, not a current-head CI claim.
+- Local integration validation: PASS across 96 Markdown files, 436 relative links, 14 English/Japanese metadata/source-URL pairs, both 15-event descending conference indexes and 33-entry descending timelines, balanced fences, no conflict markers, and original README links retained. The November 7 results above remain historical.
+- Current-head CI and publication state are recorded by the pull request checks and Git history, not inferred from the old successful run.
 
-英日READMEの会議一覧を降順化。既存36ファイルとPR #2を統合し、情報締切と実確認日を分離します。最終の内部整合検査・CI結果は確定後に追記します。
+英日READMEの会議一覧を降順化。既存36ファイルとPR #2を統合し、情報締切と実確認日を分離。96ファイル・相対リンク436件・英日14ペア・降順・旧リンク保持のローカル検査は合格。CIと公開状態はPRチェック・Git履歴で確認します。

@@ -28,4 +28,4 @@
 
 ## 再現性
 
-[検証台帳](../SOURCE-VERIFICATION-2026-10.md)、[資料台帳](../SOURCES.md)、[差分報告](../CHANGELOG.md)を参照。新規英日ペアの日付・URL・制約を揃えています。設定変更・commit・push・PRは本更新に含みません。
+[検証台帳](../SOURCE-VERIFICATION-2026-10.md)、[資料台帳](../SOURCES.md)、[差分報告](../CHANGELOG.md)を参照。新規英日ペアの日付・URL・制約を揃えています。出典確認に伴うsource-monitor設定変更はありません。その後の統合・公開は差分報告とGit・PR履歴に分けて記録します。
