@@ -1,6 +1,10 @@
 # Sources and methodology
 
-Checked: **2026-09-27 (JST)**
+Original register baseline: **2026-09-27 (JST)**
+
+October additions verified: **2026-11-07 (JST)**; evidence cutoff **2026-10-31**. See the [claim/date verification ledger](SOURCE-VERIFICATION-2026-10.md) and [EN](analysis/october-2026-refresh.md) / [JA](analysis/october-2026-refresh.ja.md) refresh. Unchanged entries retain their original baseline.
+
+10月追加分は2026-11-07確認、情報締切2026-10-31。旧項目全体の再検証を意味しません。
 
 This source register separates **threat evidence**, **conference signals**, **framework references**, and **implementation references**.
 
@@ -12,7 +16,7 @@ This source register separates **threat evidence**, **conference signals**, **fr
 | Verizon | 2026 DBIR | In-scope incidents 2024-11-01 through 2025-10-31; 22,000+ breaches across 145 countries highlighted in official materials | https://www.verizon.com/business/resources/reports/dbir/ |
 | CrowdStrike | 2026 Global Threat Report | 2025 adversary observations | https://www.crowdstrike.com/en-us/resources/reports/global-threat-report-executive-summary-2026/ |
 | Palo Alto Networks Unit 42 | 2026 Global Incident Response Report | 750+ IR cases from 2024-10-01 through 2025-09-30 across 50+ countries | https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-report |
-| Microsoft | Digital Defense Report 2025 | Latest annual edition available as of 2026-09-26 | https://www.microsoft.com/en-us/security/security-insider/threat-landscape/microsoft-digital-defense-report-2025 |
+| Microsoft | Digital Defense Report 2025 | Historical edition; October refresh adds 2026 separately | https://www.microsoft.com/en-us/security/security-insider/threat-landscape/microsoft-digital-defense-report-2025 |
 | IBM X-Force | Threat Intelligence Index 2026 | 2025 X-Force threat intelligence / incident observations | https://www.ibm.com/reports/threat-intelligence |
 | ENISA | Threat Landscape 2026 | Events/incidents observed 2025-01-01 through 2025-12-31; published 2026-09-22 | https://www.enisa.europa.eu/publications/enisa-threat-landscape-2026 |
 
@@ -144,3 +148,12 @@ See [English note](supplemental/09-japan-active-cyber-defense-2026.md) / [日本
 - Important statistics should record the observation context, denominator/population where available, and official evidence in the report note.
 - Counts, percentages, medians, averages, fastest observations, incident counts, breach counts and attack-technique counts are preserved as different measurement types; they are not normalized without source support.
 
+
+## October 2026 additions / 10月追加資料
+
+| Source | Publication | Observation / scope | Notes |
+|---|---|---|---|
+| Microsoft MDDR 2026 | 2026-10-01 | Series-specific; summary/landing-page review | [EN](reports/08-microsoft-digital-defense-report-2026.md) / [JA](reports/08-microsoft-digital-defense-report-2026.ja.md) |
+| Cloudflare DDoS Q3 2026 | 2026-10-29 | Q3 2026 mitigation telemetry | [EN](supplemental/10-cloudflare-ddos-q3-2026.md) / [JA](supplemental/10-cloudflare-ddos-q3-2026.ja.md) |
+
+All official URLs, publication dates (including unknowns), event dates, retrieval limitations, and verification dates for the ten new conference pairs are recorded in the [verification ledger](SOURCE-VERIFICATION-2026-10.md). 新規会議10件の公式URL・公開日・開催日・取得制約・確認日も同台帳に記録しています。

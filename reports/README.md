@@ -21,6 +21,7 @@ The goal is not to reproduce the original reports. Each note separates:
 | Microsoft Digital Defense Report 2025 | [English](05-microsoft-digital-defense-report-2025.md) | [日本語](05-microsoft-digital-defense-report-2025.ja.md) |
 | IBM X-Force Threat Intelligence Index 2026 | [English](06-ibm-xforce-2026.md) | [日本語](06-ibm-xforce-2026.ja.md) |
 | ENISA Threat Landscape 2026 | [English](07-enisa-threat-landscape-2026.md) | [日本語](07-enisa-threat-landscape-2026.ja.md) |
+| Microsoft Digital Defense Report 2026 — release-summary review | [English](08-microsoft-digital-defense-report-2026.md) | [日本語](08-microsoft-digital-defense-report-2026.ja.md) |
 
 ## How to read the numbers
 

@@ -15,6 +15,7 @@ This directory collects **high-value supplemental 2026 research** that fills nar
 | 07 | Check Point Cyber Security Report 2026 | AI / MCP / edge / hybrid attack paths | [EN](07-check-point-cyber-security-report-2026.md) | [JA](07-check-point-cyber-security-report-2026.ja.md) |
 | 08 | Fortinet Global Threat Landscape 2026 | Exploit velocity / network / legitimate tools | [EN](08-fortinet-global-threat-landscape-2026.md) | [JA](08-fortinet-global-threat-landscape-2026.ja.md) |
 | 09 | Japan active cyber defense legislation | Staged commencement / critical infrastructure / reporting readiness; verified 2026-09-30 | [EN](09-japan-active-cyber-defense-2026.md) | [JA](09-japan-active-cyber-defense-2026.ja.md) |
+| 10 | Cloudflare DDoS Q3 2026 | Short bursts / network availability | [EN](10-cloudflare-ddos-q3-2026.md) | [JA](10-cloudflare-ddos-q3-2026.ja.md) |
 
 ## How these are used
 

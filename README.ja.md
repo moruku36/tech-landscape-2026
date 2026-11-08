@@ -6,6 +6,8 @@ English version: [README.md](README.md)
 
 このリポジトリはセキュリティ専用のランドスケープとして始まりましたが、現在はAIの話題、カンファレンスレポート、その他の技術レポートも扱っています。そのため索引は**月別（時系列）**と**テーマ別**の2通りでたどれるようにしています。
 
+更新対象の締切: **2026-10-31**。実確認日: **2026-11-07（JST）**。新規資料は[10月更新記録](analysis/october-2026-refresh.ja.md)と[検証台帳](SOURCE-VERIFICATION-2026-10.md)を参照。既存分析の基準日は個別に保持します。
+
 ## まずここから
 
 - **月ごとに何が入ったか** → [時系列](#時系列タイムライン)
@@ -16,44 +18,60 @@ English version: [README.md](README.md)
 
 新しい順。日付は各ソースの**公開日**（レポート）または**開催日**（カンファレンス）で、各ノートのフロントマターから取っています。公開日と観測期間は別物です。注意点は [analysis/trend-timeline.md](analysis/trend-timeline.md) を参照してください。
 
+### 2026-10
+
+- 2026-10-29 — [Cloudflare DDoS Threat Report Q3 2026](supplemental/10-cloudflare-ddos-q3-2026.ja.md) ([EN](supplemental/10-cloudflare-ddos-q3-2026.md))
+- 2026-10-28 → 2026-10-29 — [GitHub Universe 2026](conferences/15-github-universe-2026.ja.md) ([EN](conferences/15-github-universe-2026.md))
+- 2026-10-25 → 2026-10-28 — [Oracle AI World 2026 (OCI)](conferences/14-oracle-ai-world-2026.ja.md) ([EN](conferences/14-oracle-ai-world-2026.md))
+- 2026-10-01 — [Microsoft Digital Defense Report 2026](reports/08-microsoft-digital-defense-report-2026.ja.md) ([EN](reports/08-microsoft-digital-defense-report-2026.md))
+
 ### 2026-09
 
+- 2026-09-30 — [日本の能動的サイバー防御：2026年10月1日の施行範囲と実務上の論点](supplemental/09-japan-active-cyber-defense-2026.ja.md)（[EN](supplemental/09-japan-active-cyber-defense-2026.md)）— 日本の政策 / 重要インフラ · ポリシー
+- 2026-09-29 — [OpenAI DevDay 2026](conferences/13-openai-devday-2026.ja.md) ([EN](conferences/13-openai-devday-2026.md))
+- 2026-09-23 → 2026-09-24 — [Meta Connect 2026](conferences/12-meta-connect-2026.ja.md) ([EN](conferences/12-meta-connect-2026.md))
 - 2026-09-22 — [ENISA Threat Landscape 2026](reports/07-enisa-threat-landscape-2026.ja.md)（[EN](reports/07-enisa-threat-landscape-2026.md)）— EU全体の脅威動向 · セキュリティレポート
 - 2026-09-22 — [Akamai SOTI 2026 — Agentic Threat Landscape](supplemental/06-akamai-agentic-threat-landscape-2026.ja.md)（[EN](supplemental/06-akamai-agentic-threat-landscape-2026.md)）— AIエージェント / MCP / 非人間アイデンティティ · AI＋セキュリティ
-- 2026-09-30 — [日本の能動的サイバー防御：2026年10月1日の施行範囲と実務上の論点](supplemental/09-japan-active-cyber-defense-2026.ja.md)（[EN](supplemental/09-japan-active-cyber-defense-2026.md)）— 日本の政策 / 重要インフラ · ポリシー
 
 ### 2026-08
 
-- 2026-08-01→06 — [Black Hat USA 2026](conferences/02-black-hat-usa-2026.md) — カンファレンス（英語のみ）
-- 2026-08-06→09 — [DEF CON 34](conferences/03-def-con-34.md) — カンファレンス（英語のみ）
 - 2026-08-11 — [Cloudflare DDoS Threat Report H1 2026](supplemental/04-cloudflare-ddos-h1-2026.ja.md)（[EN](supplemental/04-cloudflare-ddos-h1-2026.md)）— 可用性 / DNS / 大規模DDoS · セキュリティレポート
+- 2026-08-06→09 — [DEF CON 34](conferences/03-def-con-34.md) — カンファレンス（英語のみ）
+- 2026-08-01→06 — [Black Hat USA 2026](conferences/02-black-hat-usa-2026.md) — カンファレンス（英語のみ）
 
 ### 2026-06
 
 - 2026-06-14→19 — [FIRSTCON26](conferences/05-firstcon26.md) — カンファレンス（英語のみ）
+- 2026-06-10 — [AWS Summit Los Angeles 2026](conferences/11-aws-summit-la-2026.ja.md) ([EN](conferences/11-aws-summit-la-2026.md))
+- 2026-06-02 → 2026-06-03 — [Microsoft Build 2026 (Azure)](conferences/10-microsoft-build-2026.ja.md) ([EN](conferences/10-microsoft-build-2026.md))
 
 ### 2026-05
 
+- 2026-05-19 → 2026-05-20 — [Google I/O 2026](conferences/09-google-io-2026.ja.md) ([EN](conferences/09-google-io-2026.md))
 - 2026-05-18 — [Verizon 2026 Data Breach Investigations Report](reports/02-verizon-dbir-2026.ja.md)（[EN](reports/02-verizon-dbir-2026.md)）— 侵害統計の基礎データ · セキュリティレポート
+- 2026-05-06 — [Anthropic Code with Claude 2026 — San Francisco](conferences/08-anthropic-code-with-claude-2026.ja.md) ([EN](conferences/08-anthropic-code-with-claude-2026.md))
 
 ### 2026-04
 
+- 2026-04-30 — [Fortinet 2026 Global Threat Landscape Report](supplemental/08-fortinet-global-threat-landscape-2026.ja.md) ([EN](supplemental/08-fortinet-global-threat-landscape-2026.md))
+- 2026-04-22 → 2026-04-24 — [Google Cloud Next 2026 (GCP)](conferences/07-google-cloud-next-2026.ja.md) ([EN](conferences/07-google-cloud-next-2026.md))
 - 2026-04-21→23 — [FIRST Cyber Threat Intelligence Conference 2026](conferences/04-first-cti-2026.md) — カンファレンス（英語のみ）
 
 ### 2026-03
 
-- 2026-03-03 — [Cloudflare 2026 Threat Report](supplemental/03-cloudflare-threat-report-2026.ja.md)（[EN](supplemental/03-cloudflare-threat-report-2026.md)）— SaaS / トークン窃取 / DDoS · セキュリティレポート
-- 2026-03-10 — [Google Cloud Threat Horizons H1 2026](supplemental/01-google-cloud-threat-horizons-h1-2026.ja.md)（[EN](supplemental/01-google-cloud-threat-horizons-h1-2026.md)）— Cloud / CI/CD / フォレンジック準備 · セキュリティレポート
-- 2026-03-17 — [Akamai SOTI 2026 — Apps, APIs, AI and DDoS](supplemental/05-akamai-app-api-ddos-2026.ja.md)（[EN](supplemental/05-akamai-app-api-ddos-2026.md)）— API / アプリ / AIコーディング · セキュリティ＋AI
 - 2026-03-23 — [Mandiant M-Trends 2026](reports/01-m-trends-2026.ja.md)（[EN](reports/01-m-trends-2026.md)）— 最前線のインシデント対応エビデンス · セキュリティレポート
 - 2026-03-23→26 — [RSAC 2026](conferences/01-rsac-2026.md) — カンファレンス（英語のみ）
+- 2026-03-17 — [Akamai SOTI 2026 — Apps, APIs, AI and DDoS](supplemental/05-akamai-app-api-ddos-2026.ja.md)（[EN](supplemental/05-akamai-app-api-ddos-2026.md)）— API / アプリ / AIコーディング · セキュリティ＋AI
+- 2026-03-16 → 2026-03-19 — [NVIDIA GTC 2026](conferences/06-nvidia-gtc-2026.ja.md) ([EN](conferences/06-nvidia-gtc-2026.md))
+- 2026-03-10 — [Google Cloud Threat Horizons H1 2026](supplemental/01-google-cloud-threat-horizons-h1-2026.ja.md)（[EN](supplemental/01-google-cloud-threat-horizons-h1-2026.md)）— Cloud / CI/CD / フォレンジック準備 · セキュリティレポート
+- 2026-03-03 — [Cloudflare 2026 Threat Report](supplemental/03-cloudflare-threat-report-2026.ja.md)（[EN](supplemental/03-cloudflare-threat-report-2026.md)）— SaaS / トークン窃取 / DDoS · セキュリティレポート
 
 ### 2026-02
 
-- 2026-02-17 — [Unit 42 Global Incident Response Report 2026](reports/04-unit42-global-ir-2026.ja.md)（[EN](reports/04-unit42-global-ir-2026.md)）— インシデント対応 · セキュリティレポート
+- 2026-02-25 — [IBM X-Force Threat Intelligence Index 2026](reports/06-ibm-xforce-2026.ja.md)（[EN](reports/06-ibm-xforce-2026.md)）— 脅威インテリジェンス指標 · セキュリティレポート
 - 2026-02-24 — [CrowdStrike 2026 Global Threat Report](reports/03-crowdstrike-global-threat-report-2026.ja.md)（[EN](reports/03-crowdstrike-global-threat-report-2026.md)）— 攻撃者オペレーション · セキュリティレポート
 - 2026-02-24 — [Sophos Active Adversary Report 2026](supplemental/02-sophos-active-adversary-2026.ja.md)（[EN](supplemental/02-sophos-active-adversary-2026.md)）— Identity / IR / ログ保持 · セキュリティレポート
-- 2026-02-25 — [IBM X-Force Threat Intelligence Index 2026](reports/06-ibm-xforce-2026.ja.md)（[EN](reports/06-ibm-xforce-2026.md)）— 脅威インテリジェンス指標 · セキュリティレポート
+- 2026-02-17 — [Unit 42 Global Incident Response Report 2026](reports/04-unit42-global-ir-2026.ja.md)（[EN](reports/04-unit42-global-ir-2026.md)）— インシデント対応 · セキュリティレポート
 
 ### 2026-01
 
@@ -61,11 +79,7 @@ English version: [README.md](README.md)
 
 ### 2025-10
 
-- 2025-10-16 — [Microsoft Digital Defense Report 2025](reports/05-microsoft-digital-defense-report-2025.ja.md)（[EN](reports/05-microsoft-digital-defense-report-2025.md)）— Identity / Cloud / AIのテレメトリ · セキュリティレポート（2026-09-26時点の最新年次版）
-
-### 2026年（月は出典ノートに未記録）
-
-- [Fortinet 2026 Global Threat Landscape Report](supplemental/08-fortinet-global-threat-landscape-2026.ja.md)（[EN](supplemental/08-fortinet-global-threat-landscape-2026.md)）— エクスプロイト速度 / ネットワーク · セキュリティレポート ※フロントマターは年のみ。引用前にFortinet公式ページで公開月を確認すること
+- 2025-10-16 — [Microsoft Digital Defense Report 2025](reports/05-microsoft-digital-defense-report-2025.ja.md)（[EN](reports/05-microsoft-digital-defense-report-2025.md)）— Identity / Cloud / AIのテレメトリ · セキュリティレポート（履歴版。2026年版を10月に追加）
 
 ## テーマ別に探す
 
@@ -84,7 +98,27 @@ English version: [README.md](README.md)
 
 ### カンファレンス
 
-- [RSAC 2026](conferences/01-rsac-2026.md) · [Black Hat USA 2026](conferences/02-black-hat-usa-2026.md) · [DEF CON 34](conferences/03-def-con-34.md) · [FIRST CTI 2026](conferences/04-first-cti-2026.md) · [FIRSTCON26](conferences/05-firstcon26.md) — 現在は英語のみ
+開催開始日の降順（新しいものが上、会場の現地日付）。AWS/Azure/GCP/OCI/OpenAI/Anthropic/Google/NVIDIA/Meta/GitHubの追加分は英日ペアです。
+
+- 2026-10-28 to 2026-10-29 — [GitHub Universe 2026](conferences/15-github-universe-2026.ja.md) ([EN](conferences/15-github-universe-2026.md))
+- 2026-10-25 to 2026-10-28 — [Oracle AI World 2026 (OCI)](conferences/14-oracle-ai-world-2026.ja.md) ([EN](conferences/14-oracle-ai-world-2026.md))
+- 2026-09-29 — [OpenAI DevDay 2026](conferences/13-openai-devday-2026.ja.md) ([EN](conferences/13-openai-devday-2026.md))
+- 2026-09-23 to 2026-09-24 — [Meta Connect 2026](conferences/12-meta-connect-2026.ja.md) ([EN](conferences/12-meta-connect-2026.md))
+- 2026-08-06 to 2026-08-09 — [DEF CON 34](conferences/03-def-con-34.md) — 既存英語ノート
+- 2026-08-01 to 2026-08-06 — [Black Hat USA 2026](conferences/02-black-hat-usa-2026.md) — 既存英語ノート
+- 2026-06-14 to 2026-06-19 — [FIRSTCON26](conferences/05-firstcon26.md) — 既存英語ノート
+- 2026-06-10 — [AWS Summit Los Angeles 2026](conferences/11-aws-summit-la-2026.ja.md) ([EN](conferences/11-aws-summit-la-2026.md))
+- 2026-06-02 to 2026-06-03 — [Microsoft Build 2026 (Azure)](conferences/10-microsoft-build-2026.ja.md) ([EN](conferences/10-microsoft-build-2026.md))
+- 2026-05-19 to 2026-05-20 — [Google I/O 2026](conferences/09-google-io-2026.ja.md) ([EN](conferences/09-google-io-2026.md))
+- 2026-05-06 — [Anthropic Code with Claude 2026 — San Francisco](conferences/08-anthropic-code-with-claude-2026.ja.md) ([EN](conferences/08-anthropic-code-with-claude-2026.md))
+- 2026-04-22 to 2026-04-24 — [Google Cloud Next 2026 (GCP)](conferences/07-google-cloud-next-2026.ja.md) ([EN](conferences/07-google-cloud-next-2026.md))
+- 2026-04-21 to 2026-04-23 — [FIRST Cyber Threat Intelligence Conference 2026](conferences/04-first-cti-2026.md) — 既存英語ノート
+- 2026-03-23 to 2026-03-26 — [RSAC 2026](conferences/01-rsac-2026.md) — 既存英語ノート
+- 2026-03-16 to 2026-03-19 — [NVIDIA GTC 2026](conferences/06-nvidia-gtc-2026.ja.md) ([EN](conferences/06-nvidia-gtc-2026.md))
+
+[10月31日の会議資料追補](conferences/06-october-2026-refresh.ja.md) / [EN](conferences/06-october-2026-refresh.md) — 既存PR #2の学術会議・CCC資料と証拠区分の訂正を保持。確認日は開催日・公開日ではありません。
+
+[対象外・不明点](analysis/october-2026-refresh.ja.md)
 
 ### アーキテクチャとフレームワーク
 
