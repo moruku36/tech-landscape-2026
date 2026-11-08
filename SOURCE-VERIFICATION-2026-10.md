@@ -55,3 +55,24 @@ The November 7 entries above retain their original verification date. This secti
 - GitHub Universe: retrieved introduction supports the agentic software-delivery framing and developer accountability, but the product list is truncated. / 開発者の責任と全体方針を確認。製品一覧は抽出範囲外。
 - Google Next collection and Microsoft MDDR summary returned title-only/incomplete extracts; Google registration extraction failed. No retry or alternate retrieval was performed. Their original November 7 verification baseline is retained, not relabeled as newly verified. / 本文抽出の制約を記録し、再取得・別経路へ切り替えず、旧確認日を保持。
 - Existing PR #2 is integrated separately: preserve its October 31 conference follow-up pair, Black Hat announcement-versus-result correction, source register, and README links. Its historical paper/material review is not claimed as performed again here. / PR #2の資料・訂正を保持。過去の論文確認を今回再実施したとは扱いません。
+
+## Browser review of six CI 403 URLs — 2026-11-08 JST / 通常ブラウザ確認
+
+- Reviewed in the existing configured OpenClaw Chrome profile, non-headless, 18:09–18:10 JST. All six target URLs yielded readable page bodies. No login, cookie-consent submission, profile import, CAPTCHA interaction, user-agent change, proxy, or alternate network route was used. / 既存設定の通常Chromeで6件の個別本文を確認。ログイン・Cookie同意操作・制限回避なし。
+- CI evidence: run 42465335611, attempt 2, head 418e7825ec69b7ac9c12a821028ff6389a0d77e2. Checkout and lychee installation succeeded; six unique URLs returned 403 (22 occurrences). Browser success is a separate observation, not proof of the HTTP cause or permanent future availability. / ブラウザとCIの結果を分け、403の原因は未確定のままとする。
+- Final URL means the browser address after normal navigation, not a verified permanent-migration or canonical-URL assertion. Browser HTTP status codes were not independently collected. / 最終URLを恒久移転・canonicalの証明やHTTP 200の計測結果と混同しない。
+
+| 確認日 (JST) | 元URL | ブラウザの最終URL | 本文との対応 |
+|---|---|---|---|
+| 2026-11-08 | https://devday.openai.com/ | https://openai.com/ja-JP/devday/2026/ | DevDay 2026の開催後セッション一覧と新モデル・ツール・エージェントの紹介。元URLから日本語ページへ自動転送。日付・会場の根拠には別の開催告知を使う。 |
+| 2026-11-08 | https://openai.com/devday/2026/ | https://openai.com/ja-JP/devday/2026/ | 上記と同じDevDay 2026ページの本文。日本語ページへの自動転送は恒久的な移転の証拠とは扱わない。 |
+| 2026-11-08 | https://openai.com/index/devday-2026/ | https://openai.com/ja-JP/index/devday-2026/ | 開催告知本文に「2026年9月29日、サンフランシスコで開催」。通知登録フォームはあるが、本文閲覧のための登録要求ではなく、入力・送信はしていない。 |
+| 2026-11-08 | https://openai.com/index/devday-2026-recap/ | https://openai.com/ja-JP/index/devday-2026-recap/ | 2026年9月29日の振り返り。継続稼働エージェント、GPT-6.1 Sol、Codexクラウド、Codex Security Cloud、Agents APIのコンピューター操作を本文で確認。Private Inferenceはプレビュー扱い。11月の関連記事は締切対象から除外。 |
+| 2026-11-08 | https://investor.fortinet.com/news-releases/news-release-details/fortinet-2026-global-threat-landscape-report-reveals-surge-ai/ | https://investor.fortinet.com/news-releases/news-release-details/fortinet-2026-global-threat-landscape-report-reveals-surge-ai/ | 個別記事の本文にApril 30, 2026 at 9:10 AM EDTと2026年版レポートの公開を確認。観測対象は2025年。統計の全面再検証とは扱わない。 |
+| 2026-11-08 | https://community.oracle.com/products/oracleanalytics/discussion/29882/oracle-ai-world-2026-must-attend-sessions-for-aidp-oac-fdi/p1 | https://community.oracle.com/products/oracleanalytics/discussion/29882/oracle-ai-world-2026-must-attend-sessions-for-aidp-oac-fdi/p1 | 個別ページの本文と同タイトルを確認。公開Oct 14, 2026、更新Nov 4, 2026。本文にOracle AI World 2026 (Oct 25–28)と対象セッション一覧。更新日が締切後なので10月31日時点の本文不変や各登壇実施を証明しない。 |
+
+### Approved local handling / 承認後のローカル適用
+
+Retain the original source URLs. No permanent relocation has been established. Following owner approval on 2026-11-08, six anchored, literal-URL exclusions were applied locally to the link-check workflow, based on observed CI 403s and successful browser reads. This does not establish the cause of the 403s. No domain wildcard or acceptance of arbitrary 403 responses was added; every other URL remains subject to the existing checks. Additional push and merge each require separate owner approval. No additional CI execution was performed. / 本人承認により6 URL完全一致の例外だけをローカル適用。403の原因は未確定。全403許容・ドメイン全体除外は追加せず、元URLを保持。追加push・mergeはそれぞれ本人承認待ち。追加CIは未実行。
+
+The Oracle publication date previously recorded as unknown is now established from the visible individual page as October 14, with a November 4 update. This does not backdate the current page state to October 31. The November 7 baseline above is retained as historical. / Oracleの公開日不明を個別ページの表示で補正し、締切後の更新も明記。旧確認日を上書きして全面再検証したとは扱わない。

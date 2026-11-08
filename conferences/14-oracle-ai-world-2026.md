@@ -27,10 +27,12 @@ The date notice is Oracle-hosted and Oracle-authored, not an independent communi
 
 Verified on 2026-11-07 with an evidence cutoff of 2026-10-31. This is not a complete reconstruction of page state at the cutoff.
 
+A source-specific browser recheck on 2026-11-08 confirmed the program notice displays publication on 2026-10-14, an update on 2026-11-04, and October 25–28 event dates. Because the update is after the cutoff, the current body is not assumed identical to its October 31 state. Other sources retain their prior verification dates.
+
 ## Public primary sources
 
 | Publication date (unknown where unstated) | Evidence |
 |---|---|
-| not stated | [Oracle-hosted program notice / dates](https://community.oracle.com/products/oracleanalytics/discussion/29882/oracle-ai-world-2026-must-attend-sessions-for-aidp-oac-fdi/p1) |
+| 2026-10-14 | [Oracle-hosted program notice / dates](https://community.oracle.com/products/oracleanalytics/discussion/29882/oracle-ai-world-2026-must-attend-sessions-for-aidp-oac-fdi/p1) |
 | 2026-10-26 | [Deep Trust announcement](https://www.oracle.com/news/announcement/ai-world-oracle-announces-deep-trust-ai-architecture-to-help-enterprises-innovate-with-confidence-2026-10-26/) |
 | 2026-10-27 | [Enterprise security announcement](https://www.oracle.com/news/announcement/ai-world-oracle-advances-enterprise-security-for-the-ai-era-2026-10-27/) |

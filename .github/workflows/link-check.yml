@@ -38,5 +38,11 @@ jobs:
             --exclude "https://www\.akamai\.com/.*"
             --exclude "https://www\.sophos\.com/.*"
             --exclude "https://www\.cloudflare\.com/lp/.*"
+            --exclude "^https://devday\.openai\.com/$"
+            --exclude "^https://openai\.com/devday/2026/$"
+            --exclude "^https://openai\.com/index/devday-2026/$"
+            --exclude "^https://openai\.com/index/devday-2026-recap/$"
+            --exclude "^https://investor\.fortinet\.com/news-releases/news-release-details/fortinet-2026-global-threat-landscape-report-reveals-surge-ai/$"
+            --exclude "^https://community\.oracle\.com/products/oracleanalytics/discussion/29882/oracle-ai-world-2026-must-attend-sessions-for-aidp-oac-fdi/p1$"
             "**/*.md"
           fail: true

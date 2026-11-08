@@ -27,10 +27,12 @@ Oracleはソフトウェア基盤・データ・データアクセス・アプ�
 
 確認日は2026-11-07、採用情報の締切は2026-10-31です。締切当時のページ状態を完全に復元したものではありません。
 
+2026-11-08の通常ブラウザによる個別告知の再確認では、公開日2026-10-14、更新日2026-11-04、本文の会期10月25〜28日を確認しました。締切後の更新があるため、現在の本文が10月31日時点と同一だったとは扱いません。他の出典の従来の確認日は保持します。
+
 ## 公開一次資料
 
 | 公開日（不明は明記） | 資料 |
 |---|---|
-| not stated | [Oracle-hosted program notice / dates](https://community.oracle.com/products/oracleanalytics/discussion/29882/oracle-ai-world-2026-must-attend-sessions-for-aidp-oac-fdi/p1) |
+| 2026-10-14 | [Oracle-hosted program notice / dates](https://community.oracle.com/products/oracleanalytics/discussion/29882/oracle-ai-world-2026-must-attend-sessions-for-aidp-oac-fdi/p1) |
 | 2026-10-26 | [Deep Trust announcement](https://www.oracle.com/news/announcement/ai-world-oracle-announces-deep-trust-ai-architecture-to-help-enterprises-innovate-with-confidence-2026-10-26/) |
 | 2026-10-27 | [Enterprise security announcement](https://www.oracle.com/news/announcement/ai-world-oracle-advances-enterprise-security-for-the-ai-era-2026-10-27/) |
