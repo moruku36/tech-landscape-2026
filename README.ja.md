@@ -6,7 +6,7 @@ English version: [README.md](README.md)
 
 このリポジトリはセキュリティ専用のランドスケープとして始まりましたが、現在はAIの話題、カンファレンスレポート、その他の技術レポートも扱っています。そのため索引は**月別（時系列）**と**テーマ別**の2通りでたどれるようにしています。
 
-更新対象の締切: **2026-10-31**。実確認日: **2026-11-07（JST）**。新規資料は[10月更新記録](analysis/october-2026-refresh.ja.md)と[検証台帳](SOURCE-VERIFICATION-2026-10.md)を参照。既存分析の基準日は個別に保持します。
+更新対象の締切: **2026-10-31**。初回確認日: **2026-11-07（JST）**、限定的な追加確認: **2026-11-08（JST）**。公開前の保守記述は **2026-11-09（JST）** に確認しており、出典の全面再監査ではありません。新規資料は[10月更新記録](analysis/october-2026-refresh.ja.md)と[検証台帳](SOURCE-VERIFICATION-2026-10.md)を参照。既存分析の基準日は個別に保持します。
 
 ## まずここから
 
@@ -222,9 +222,9 @@ flowchart TB
 
 ### 次にアップデートする時期
 
-次回のおすすめ確認時期：**2026年10月末〜11月**。以下のいずれかが発生したら部分更新します。
+10月分の追補には **Microsoft Digital Defense Report 2026** と **Cloudflare DDoS Q3 2026** を追加済みです。範囲・検証の制約は [CHANGELOG.md](CHANGELOG.md) を参照してください。以下のいずれかが発生したら部分更新します。
 
-- Microsoftが次のDigital Defense Report年次版を公開した
+- MicrosoftがDigital Defense Report 2026を大きく更新した、または次の年次版を公開した
 - 主要Vendorが2026年版Threat / Incident Response Reportを大きく更新した
 - Black Hat / DEF CON / FIRSTなどの追加公開資料で、現在のArchitecture結論を変える重要な研究が出た
 - MITRE ATT&CK / NIST CSF / CIS Controls / MCP / Cloud ProviderのSecurity Guidanceに、現在のMappingへ影響する変更が入った
@@ -245,9 +245,9 @@ flowchart TB
 
 1. **2026年末の総括を追加する** — さらに強まったTrend／年初から変わらなかったTrend／話題ほどEnterprise Architectureへ影響しなかったTrendを分けて整理する。
 2. **2026 → 2027 Delta Analysisを作る** — Initial Access、Identity Abuse、Cloud / SaaS、Edge / Virtualization、Ransomware / Recovery Denial、AI Attack / AI Defense、Attack / Response Speedの前年変化を追えるようにする。
-3. **Conference資料も日本語版を追加する** — RSAC / Black Hat / DEF CON / FIRST CTI / FIRSTCONを `reports/` と同じ日英ペア構成にする。
+3. **旧Conference資料も日本語版を追加する** — RSAC / Black Hat / DEF CON / FIRST CTI / FIRSTCONを `reports/` と同じ日英ペア構成にする。今回追加した会議10件は日英ペアを整備済み。
 4. **Source Update Monitoring — 実装済み** — 月1回、主要な公式Landing Pageを確認し、新EditionのMarkerを検知したらGitHub Issueを自動作成する [Source Monitor](monitor/README.md)。FrameworkやCloud Security Guidanceも必要に応じてRegistryへ追加する。
-5. **CHANGELOG / Release Tagを導入する** — `2026-09-snapshot`、`2026-year-end`、`2027-q1-refresh` のようなTag / Releaseで、どの時点の知見か追いやすくする。
+5. **CHANGELOGを継続し、Release Tagを導入する** — [CHANGELOG.md](CHANGELOG.md) は整備済み。今後は `2026-09-snapshot`、`2026-year-end`、`2027-q1-refresh` のようなTag / Releaseで、どの時点の知見か追いやすくする。
 6. **Architectureは流行ではなくEvidenceで変える** — 複数の独立したSourceや重要な技術変化が裏付けた時だけArchitectureを変更する。
 
 ### 更新時チェックリスト

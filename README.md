@@ -6,7 +6,7 @@
 
 This repository started as a security-only landscape. It now also tracks AI topics, conference reports, and broader technology research, so the index below is organised **by month** and **by topic** to make growth easy to follow.
 
-Evidence cutoff: **2026-10-31**. Actual verification: **2026-11-07 (JST)**. See the [October refresh](analysis/october-2026-refresh.md) and [verification ledger](SOURCE-VERIFICATION-2026-10.md). Existing analysis baselines are retained individually.
+Evidence cutoff: **2026-10-31**. Initial verification: **2026-11-07 (JST)**; limited follow-up checks: **2026-11-08 (JST)**. Publication maintenance reviewed on **2026-11-09 (JST)**, not a new full source audit. See the [October refresh](analysis/october-2026-refresh.md) and [verification ledger](SOURCE-VERIFICATION-2026-10.md). Existing analysis baselines are retained individually.
 
 ## Start here
 
@@ -222,9 +222,9 @@ This repository is intended to remain reproducible rather than become a one-off 
 
 ### When to update next
 
-Recommended review window: **late October–November 2026**. Do a focused refresh when one of the following happens:
+The October evidence refresh now includes **Microsoft Digital Defense Report 2026** and **Cloudflare DDoS Q3 2026**. See [CHANGELOG.md](CHANGELOG.md) for scope and verification limits. Do a focused refresh when one of the following happens:
 
-- Microsoft publishes the next annual Digital Defense Report;
+- Microsoft materially revises Digital Defense Report 2026 or publishes its next annual edition;
 - a major vendor publishes a materially revised 2026 threat/IR report;
 - a major post-conference research release changes the current architecture conclusions;
 - MITRE ATT&CK, NIST CSF, CIS Controls, MCP, or major cloud-provider security guidance changes in a way that affects the mappings in this repository.
@@ -245,9 +245,9 @@ When the 2027 annual-report cycle begins:
 
 1. **Year-end 2026 synthesis** — separate trends that strengthened, trends that remained stable, and trends that were over-hyped.
 2. **2026 → 2027 delta analysis** — track changes in initial access, identity abuse, cloud/SaaS, edge/virtualization, ransomware/recovery denial, AI-assisted attack and defense, and response speed.
-3. **Conference bilingual expansion** — add Japanese editions for the five conference notes, using the same bilingual pattern as `reports/`.
+3. **Conference bilingual expansion** — add Japanese editions for the five older notes (RSAC, Black Hat, DEF CON, FIRST CTI, FIRSTCON), using the same bilingual pattern as `reports/`; the ten newly added event notes are already paired.
 4. **Source-change automation — implemented** — a monthly [source monitor](monitor/README.md) checks official landing pages for next-edition markers and opens a GitHub Issue when a likely refresh is detected.
-5. **Release/version discipline** — add `CHANGELOG.md` and GitHub releases/tags for meaningful snapshots (e.g. `2026-09-snapshot`, `2026-year-end`, `2027-q1-refresh`).
+5. **Release/version discipline** — maintain [CHANGELOG.md](CHANGELOG.md); GitHub releases/tags remain a backlog item for meaningful snapshots (e.g. `2026-09-snapshot`, `2026-year-end`, `2027-q1-refresh`).
 6. **Keep architecture conclusions evidence-driven** — do not add a new domain simply because it is fashionable.
 
 ### Update checklist
