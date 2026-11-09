@@ -6,7 +6,7 @@
 
 This repository started as a security-only landscape. It now also tracks AI topics, conference reports, and broader technology research, so the index below is organised **by month** and **by topic** to make growth easy to follow.
 
-Evidence cutoff: **2026-10-31**. Initial verification: **2026-11-07 (JST)**; limited follow-up checks: **2026-11-08 (JST)**. Publication maintenance reviewed on **2026-11-09 (JST)**, not a new full source audit. See the [October refresh](analysis/october-2026-refresh.md) and [verification ledger](SOURCE-VERIFICATION-2026-10.md). Existing analysis baselines are retained individually.
+Evidence cutoff: **2026-10-31**. Initial verification: **2026-11-07 (JST)**; limited follow-up checks: **2026-11-08 (JST)**. Publication-maintenance wording reviewed on **2026-11-09 (JST)**; this is not a new full source audit. See the [October refresh](analysis/october-2026-refresh.md) and [verification ledger](SOURCE-VERIFICATION-2026-10.md). Existing analysis baselines are retained individually.
 
 ## Start here
 

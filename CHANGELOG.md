@@ -1,13 +1,13 @@
 # Change report / 差分報告
 
-## November 9 publication maintenance / 11月9日の公開準備
+## 2026-11-09 JST — publication maintenance / 公開準備
 
 - Preserve the October 31 evidence cutoff, November 7 initial verification and limited November 8 follow-up checks. This maintenance pass is not a new full source audit.
 - Update both root READMEs: the MDDR 2026 / Cloudflare Q3 additions and CHANGELOG are already present; Japanese editions remain pending only for the five older conference notes.
 - Preserve the six exact-URL link-check exceptions added on November 8 after browser verification. Earlier statements that no configuration changed describe the November 7 draft, not the entire integrated branch. Source-monitor configuration remains unchanged.
-- Publication and current-head link-check results are tracked on the pull request and Actions, not inferred from historical passing runs.
+- The six exact-URL exceptions are based on the earlier CI 403 responses and separate browser reads recorded in the verification ledger; they do not establish a passing link check. The last observed pre-publication run (42466384758) failed downloading Lychee before checking links. Publication and current-head results are tracked on the pull request and Actions, not inferred from historical passing runs.
 
-10月31日の情報締切、11月7日の初回確認、11月8日の限定確認を保持し、全面再監査とは扱いません。英日READMEの古い保守案内を修正。11月8日の6 URL完全一致の検査例外は保持し、監視設定は変更しません。公開・CIの最終状態はPRとActionsで確認します。
+10月31日の情報締切、11月7日の初回確認、11月8日の限定確認を保持し、全面再監査とは扱いません。英日READMEの古い保守案内を修正。11月8日の6 URL完全一致の検査例外は保持し、監視設定は変更しません。6 URLの例外は過去のCI 403と台帳の通常ブラウザ確認に基づくもので、リンク検査合格の証拠ではありません。公開前に最後に確認した実行（42466384758）はLychee取得時に失敗。公開・最新コミットのCI状態はPRとActionsで確認します。
 
 ## 2026-10-31 evidence cutoff — verified 2026-11-07 JST
 
