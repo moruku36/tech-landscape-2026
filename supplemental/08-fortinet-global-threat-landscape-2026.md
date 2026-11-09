@@ -1,7 +1,7 @@
 ---
 publisher: "FortiGuard Labs / Fortinet"
 edition: "2026 Global Threat Landscape Report"
-publication_date: "2026"
+publication_date: "2026-04-30"
 observation_period: "2025"
 scope: "FortiGuard Labs global threat telemetry and exploitation observations"
 language: "en"
@@ -67,3 +67,9 @@ Fortinet's network-centric visibility is a useful counterweight to endpoint-heav
 ## Primary source
 
 - https://www.fortinet.com/resources/reports/threat-landscape-report
+
+## Publication-date verification
+
+Publication-date addendum (verified 2026-11-07): the official release is dated 2026-04-30. This date/source check does not re-verify every existing finding or change the original verification baseline.
+
+- [Official release](https://investor.fortinet.com/news-releases/news-release-details/fortinet-2026-global-threat-landscape-report-reveals-surge-ai/)

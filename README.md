@@ -6,6 +6,8 @@
 
 This repository started as a security-only landscape. It now also tracks AI topics, conference reports, and broader technology research, so the index below is organised **by month** and **by topic** to make growth easy to follow.
 
+Evidence cutoff: **2026-10-31**. Initial verification: **2026-11-07 (JST)**; limited follow-up checks: **2026-11-08 (JST)**. Publication-maintenance wording reviewed on **2026-11-09 (JST)**; this is not a new full source audit. See the [October refresh](analysis/october-2026-refresh.md) and [verification ledger](SOURCE-VERIFICATION-2026-10.md). Existing analysis baselines are retained individually.
+
 ## Start here
 
 - **What arrived, month by month** → [Timeline](#timeline)
@@ -16,44 +18,60 @@ This repository started as a security-only landscape. It now also tracks AI topi
 
 Newest first. Dates are each source's **publication date** (reports) or **event dates** (conferences), taken from the notes' own frontmatter. Publication date is not the observation period — see the warning in [analysis/trend-timeline.md](analysis/trend-timeline.md).
 
+### 2026-10
+
+- 2026-10-29 — [Cloudflare DDoS Threat Report Q3 2026](supplemental/10-cloudflare-ddos-q3-2026.md) ([JA](supplemental/10-cloudflare-ddos-q3-2026.ja.md))
+- 2026-10-28 → 2026-10-29 — [GitHub Universe 2026](conferences/15-github-universe-2026.md) ([JA](conferences/15-github-universe-2026.ja.md))
+- 2026-10-25 → 2026-10-28 — [Oracle AI World 2026 (OCI)](conferences/14-oracle-ai-world-2026.md) ([JA](conferences/14-oracle-ai-world-2026.ja.md))
+- 2026-10-01 — [Microsoft Digital Defense Report 2026](reports/08-microsoft-digital-defense-report-2026.md) ([JA](reports/08-microsoft-digital-defense-report-2026.ja.md))
+
 ### 2026-09
 
+- 2026-09-30 — [Japan active cyber defense: October 2026 commencement](supplemental/09-japan-active-cyber-defense-2026.md) ([JA](supplemental/09-japan-active-cyber-defense-2026.ja.md)) — Japan policy / critical infrastructure · Policy
+- 2026-09-29 — [OpenAI DevDay 2026](conferences/13-openai-devday-2026.md) ([JA](conferences/13-openai-devday-2026.ja.md))
+- 2026-09-23 → 2026-09-24 — [Meta Connect 2026](conferences/12-meta-connect-2026.md) ([JA](conferences/12-meta-connect-2026.ja.md))
 - 2026-09-22 — [ENISA Threat Landscape 2026](reports/07-enisa-threat-landscape-2026.md) ([JA](reports/07-enisa-threat-landscape-2026.ja.md)) — EU-wide threat landscape · Security report
 - 2026-09-22 — [Akamai SOTI 2026 — Agentic Threat Landscape](supplemental/06-akamai-agentic-threat-landscape-2026.md) ([JA](supplemental/06-akamai-agentic-threat-landscape-2026.ja.md)) — AI agents / MCP / nonhuman identity · AI + Security
-- 2026-09-30 — [Japan active cyber defense: October 2026 commencement](supplemental/09-japan-active-cyber-defense-2026.md) ([JA](supplemental/09-japan-active-cyber-defense-2026.ja.md)) — Japan policy / critical infrastructure · Policy
 
 ### 2026-08
 
-- 2026-08-01→06 — [Black Hat USA 2026](conferences/02-black-hat-usa-2026.md) — Conference (EN only)
-- 2026-08-06→09 — [DEF CON 34](conferences/03-def-con-34.md) — Conference (EN only)
 - 2026-08-11 — [Cloudflare DDoS Threat Report H1 2026](supplemental/04-cloudflare-ddos-h1-2026.md) ([JA](supplemental/04-cloudflare-ddos-h1-2026.ja.md)) — Availability / DNS / hyper-volumetric DDoS · Security report
+- 2026-08-06→09 — [DEF CON 34](conferences/03-def-con-34.md) — Conference (EN only)
+- 2026-08-01→06 — [Black Hat USA 2026](conferences/02-black-hat-usa-2026.md) — Conference (EN only)
 
 ### 2026-06
 
 - 2026-06-14→19 — [FIRSTCON26](conferences/05-firstcon26.md) — Conference (EN only)
+- 2026-06-10 — [AWS Summit Los Angeles 2026](conferences/11-aws-summit-la-2026.md) ([JA](conferences/11-aws-summit-la-2026.ja.md))
+- 2026-06-02 → 2026-06-03 — [Microsoft Build 2026 (Azure)](conferences/10-microsoft-build-2026.md) ([JA](conferences/10-microsoft-build-2026.ja.md))
 
 ### 2026-05
 
+- 2026-05-19 → 2026-05-20 — [Google I/O 2026](conferences/09-google-io-2026.md) ([JA](conferences/09-google-io-2026.ja.md))
 - 2026-05-18 — [Verizon 2026 Data Breach Investigations Report](reports/02-verizon-dbir-2026.md) ([JA](reports/02-verizon-dbir-2026.ja.md)) — Breach statistics baseline · Security report
+- 2026-05-06 — [Anthropic Code with Claude 2026 — San Francisco](conferences/08-anthropic-code-with-claude-2026.md) ([JA](conferences/08-anthropic-code-with-claude-2026.ja.md))
 
 ### 2026-04
 
+- 2026-04-30 — [Fortinet 2026 Global Threat Landscape Report](supplemental/08-fortinet-global-threat-landscape-2026.md) ([JA](supplemental/08-fortinet-global-threat-landscape-2026.ja.md))
+- 2026-04-22 → 2026-04-24 — [Google Cloud Next 2026 (GCP)](conferences/07-google-cloud-next-2026.md) ([JA](conferences/07-google-cloud-next-2026.ja.md))
 - 2026-04-21→23 — [FIRST Cyber Threat Intelligence Conference 2026](conferences/04-first-cti-2026.md) — Conference (EN only)
 
 ### 2026-03
 
-- 2026-03-03 — [Cloudflare 2026 Threat Report](supplemental/03-cloudflare-threat-report-2026.md) ([JA](supplemental/03-cloudflare-threat-report-2026.ja.md)) — SaaS / token theft / DDoS · Security report
-- 2026-03-10 — [Google Cloud Threat Horizons H1 2026](supplemental/01-google-cloud-threat-horizons-h1-2026.md) ([JA](supplemental/01-google-cloud-threat-horizons-h1-2026.ja.md)) — Cloud / CI/CD / forensic readiness · Security report
-- 2026-03-17 — [Akamai SOTI 2026 — Apps, APIs, AI and DDoS](supplemental/05-akamai-app-api-ddos-2026.md) ([JA](supplemental/05-akamai-app-api-ddos-2026.ja.md)) — API / app / AI coding · Security + AI
 - 2026-03-23 — [Mandiant M-Trends 2026](reports/01-m-trends-2026.md) ([JA](reports/01-m-trends-2026.ja.md)) — Frontline incident-response evidence · Security report
 - 2026-03-23→26 — [RSAC 2026](conferences/01-rsac-2026.md) — Conference (EN only)
+- 2026-03-17 — [Akamai SOTI 2026 — Apps, APIs, AI and DDoS](supplemental/05-akamai-app-api-ddos-2026.md) ([JA](supplemental/05-akamai-app-api-ddos-2026.ja.md)) — API / app / AI coding · Security + AI
+- 2026-03-16 → 2026-03-19 — [NVIDIA GTC 2026](conferences/06-nvidia-gtc-2026.md) ([JA](conferences/06-nvidia-gtc-2026.ja.md))
+- 2026-03-10 — [Google Cloud Threat Horizons H1 2026](supplemental/01-google-cloud-threat-horizons-h1-2026.md) ([JA](supplemental/01-google-cloud-threat-horizons-h1-2026.ja.md)) — Cloud / CI/CD / forensic readiness · Security report
+- 2026-03-03 — [Cloudflare 2026 Threat Report](supplemental/03-cloudflare-threat-report-2026.md) ([JA](supplemental/03-cloudflare-threat-report-2026.ja.md)) — SaaS / token theft / DDoS · Security report
 
 ### 2026-02
 
-- 2026-02-17 — [Unit 42 Global Incident Response Report 2026](reports/04-unit42-global-ir-2026.md) ([JA](reports/04-unit42-global-ir-2026.ja.md)) — Incident response · Security report
+- 2026-02-25 — [IBM X-Force Threat Intelligence Index 2026](reports/06-ibm-xforce-2026.md) ([JA](reports/06-ibm-xforce-2026.ja.md)) — Threat intelligence index · Security report
 - 2026-02-24 — [CrowdStrike 2026 Global Threat Report](reports/03-crowdstrike-global-threat-report-2026.md) ([JA](reports/03-crowdstrike-global-threat-report-2026.ja.md)) — Adversary operations · Security report
 - 2026-02-24 — [Sophos Active Adversary Report 2026](supplemental/02-sophos-active-adversary-2026.md) ([JA](supplemental/02-sophos-active-adversary-2026.ja.md)) — Identity / IR / log retention · Security report
-- 2026-02-25 — [IBM X-Force Threat Intelligence Index 2026](reports/06-ibm-xforce-2026.md) ([JA](reports/06-ibm-xforce-2026.ja.md)) — Threat intelligence index · Security report
+- 2026-02-17 — [Unit 42 Global Incident Response Report 2026](reports/04-unit42-global-ir-2026.md) ([JA](reports/04-unit42-global-ir-2026.ja.md)) — Incident response · Security report
 
 ### 2026-01
 
@@ -61,11 +79,7 @@ Newest first. Dates are each source's **publication date** (reports) or **event 
 
 ### 2025-10
 
-- 2025-10-16 — [Microsoft Digital Defense Report 2025](reports/05-microsoft-digital-defense-report-2025.md) ([JA](reports/05-microsoft-digital-defense-report-2025.ja.md)) — Identity / cloud / AI telemetry · Security report (latest annual edition available as of 2026-09-26)
-
-### 2026 — month not recorded in the source note
-
-- [Fortinet 2026 Global Threat Landscape Report](supplemental/08-fortinet-global-threat-landscape-2026.md) ([JA](supplemental/08-fortinet-global-threat-landscape-2026.ja.md)) — Exploit velocity / network · Security report *(frontmatter records only the year; verify the month against Fortinet's official page before citing)*
+- 2025-10-16 — [Microsoft Digital Defense Report 2025](reports/05-microsoft-digital-defense-report-2025.md) ([JA](reports/05-microsoft-digital-defense-report-2025.ja.md)) — Identity / cloud / AI telemetry · Security report (historical edition; 2026 edition added in October)
 
 ## Browse by topic
 
@@ -84,7 +98,27 @@ Newest first. Dates are each source's **publication date** (reports) or **event 
 
 ### Conferences
 
-- [RSAC 2026](conferences/01-rsac-2026.md) · [Black Hat USA 2026](conferences/02-black-hat-usa-2026.md) · [DEF CON 34](conferences/03-def-con-34.md) · [FIRST CTI 2026](conferences/04-first-cti-2026.md) · [FIRSTCON26](conferences/05-firstcon26.md) — English only for now
+Newest event start date first (venue-local dates). New AWS/Azure/GCP/OCI/OpenAI/Anthropic/Google/NVIDIA/Meta/GitHub notes are bilingual.
+
+- 2026-10-28 to 2026-10-29 — [GitHub Universe 2026](conferences/15-github-universe-2026.md) ([JA](conferences/15-github-universe-2026.ja.md))
+- 2026-10-25 to 2026-10-28 — [Oracle AI World 2026 (OCI)](conferences/14-oracle-ai-world-2026.md) ([JA](conferences/14-oracle-ai-world-2026.ja.md))
+- 2026-09-29 — [OpenAI DevDay 2026](conferences/13-openai-devday-2026.md) ([JA](conferences/13-openai-devday-2026.ja.md))
+- 2026-09-23 to 2026-09-24 — [Meta Connect 2026](conferences/12-meta-connect-2026.md) ([JA](conferences/12-meta-connect-2026.ja.md))
+- 2026-08-06 to 2026-08-09 — [DEF CON 34](conferences/03-def-con-34.md) — existing English note
+- 2026-08-01 to 2026-08-06 — [Black Hat USA 2026](conferences/02-black-hat-usa-2026.md) — existing English note
+- 2026-06-14 to 2026-06-19 — [FIRSTCON26](conferences/05-firstcon26.md) — existing English note
+- 2026-06-10 — [AWS Summit Los Angeles 2026](conferences/11-aws-summit-la-2026.md) ([JA](conferences/11-aws-summit-la-2026.ja.md))
+- 2026-06-02 to 2026-06-03 — [Microsoft Build 2026 (Azure)](conferences/10-microsoft-build-2026.md) ([JA](conferences/10-microsoft-build-2026.ja.md))
+- 2026-05-19 to 2026-05-20 — [Google I/O 2026](conferences/09-google-io-2026.md) ([JA](conferences/09-google-io-2026.ja.md))
+- 2026-05-06 — [Anthropic Code with Claude 2026 — San Francisco](conferences/08-anthropic-code-with-claude-2026.md) ([JA](conferences/08-anthropic-code-with-claude-2026.ja.md))
+- 2026-04-22 to 2026-04-24 — [Google Cloud Next 2026 (GCP)](conferences/07-google-cloud-next-2026.md) ([JA](conferences/07-google-cloud-next-2026.ja.md))
+- 2026-04-21 to 2026-04-23 — [FIRST Cyber Threat Intelligence Conference 2026](conferences/04-first-cti-2026.md) — existing English note
+- 2026-03-23 to 2026-03-26 — [RSAC 2026](conferences/01-rsac-2026.md) — existing English note
+- 2026-03-16 to 2026-03-19 — [NVIDIA GTC 2026](conferences/06-nvidia-gtc-2026.md) ([JA](conferences/06-nvidia-gtc-2026.ja.md))
+
+[October 31 conference evidence refresh](conferences/06-october-2026-refresh.md) / [JA](conferences/06-october-2026-refresh.ja.md) — preserves PR #2's academic/CCC coverage and evidence corrections. The check date is not an event or publication date.
+
+[Exclusions and unknowns](analysis/october-2026-refresh.md)
 
 ### Architecture and frameworks
 
@@ -188,9 +222,9 @@ This repository is intended to remain reproducible rather than become a one-off 
 
 ### When to update next
 
-Recommended review window: **late October–November 2026**. Do a focused refresh when one of the following happens:
+The October evidence refresh now includes **Microsoft Digital Defense Report 2026** and **Cloudflare DDoS Q3 2026**. See [CHANGELOG.md](CHANGELOG.md) for scope and verification limits. Do a focused refresh when one of the following happens:
 
-- Microsoft publishes the next annual Digital Defense Report;
+- Microsoft materially revises Digital Defense Report 2026 or publishes its next annual edition;
 - a major vendor publishes a materially revised 2026 threat/IR report;
 - a major post-conference research release changes the current architecture conclusions;
 - MITRE ATT&CK, NIST CSF, CIS Controls, MCP, or major cloud-provider security guidance changes in a way that affects the mappings in this repository.
@@ -211,9 +245,9 @@ When the 2027 annual-report cycle begins:
 
 1. **Year-end 2026 synthesis** — separate trends that strengthened, trends that remained stable, and trends that were over-hyped.
 2. **2026 → 2027 delta analysis** — track changes in initial access, identity abuse, cloud/SaaS, edge/virtualization, ransomware/recovery denial, AI-assisted attack and defense, and response speed.
-3. **Conference bilingual expansion** — add Japanese editions for the five conference notes, using the same bilingual pattern as `reports/`.
+3. **Conference bilingual expansion** — add Japanese editions for the five older notes (RSAC, Black Hat, DEF CON, FIRST CTI, FIRSTCON), using the same bilingual pattern as `reports/`; the ten newly added event notes are already paired.
 4. **Source-change automation — implemented** — a monthly [source monitor](monitor/README.md) checks official landing pages for next-edition markers and opens a GitHub Issue when a likely refresh is detected.
-5. **Release/version discipline** — add `CHANGELOG.md` and GitHub releases/tags for meaningful snapshots (e.g. `2026-09-snapshot`, `2026-year-end`, `2027-q1-refresh`).
+5. **Release/version discipline** — maintain [CHANGELOG.md](CHANGELOG.md); GitHub releases/tags remain a backlog item for meaningful snapshots (e.g. `2026-09-snapshot`, `2026-year-end`, `2027-q1-refresh`).
 6. **Keep architecture conclusions evidence-driven** — do not add a new domain simply because it is fashionable.
 
 ### Update checklist

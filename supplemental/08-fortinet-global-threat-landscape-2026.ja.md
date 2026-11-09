@@ -1,7 +1,7 @@
 ---
 publisher: "FortiGuard Labs / Fortinet"
 edition: "2026 Global Threat Landscape Report"
-publication_date: "2026"
+publication_date: "2026-04-30"
 observation_period: "2025"
 language: "ja"
 translation_of: "08-fortinet-global-threat-landscape-2026.md"
@@ -69,3 +69,9 @@ EndpointだけでなくFirewall / VPN / DNS / Network FlowをDetection Engineeri
 ## Primary Source
 
 - https://www.fortinet.com/resources/reports/threat-landscape-report
+
+## 公開日の検証
+
+公開日補足（2026-11-07確認）: 公式発表は2026-04-30。今回の再確認は公開日と公式発表の範囲で、既存本文全体の再検証日を更新したものではありません。
+
+- [Official release](https://investor.fortinet.com/news-releases/news-release-details/fortinet-2026-global-threat-landscape-report-reveals-surge-ai/)

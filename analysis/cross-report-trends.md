@@ -14,6 +14,10 @@ Because each publisher uses a different observation population, methodology, geo
 
 ## 2026 consensus map
 
+Baseline retained: September 2026, including Microsoft MDDR 2025. The [October refresh (EN)](october-2026-refresh.md) / [日本語](october-2026-refresh.ja.md) adds MDDR 2026 and Cloudflare Q3 without treating product announcements as incident statistics or replacing this matrix after a summary-only review.
+
+本表は9月基準を保持します。10月追加資料は別ノートで評価し、製品発表を発生率の証拠には使いません。
+
 | Theme | M-Trends | DBIR | CrowdStrike | Unit 42 | Microsoft | IBM | ENISA | Independent conference signal |
 |---|---|---|---|---|---|---|---|---|
 | AI accelerates offensive activity | Major | Major | Major | Major | Major | Major | Observed | RSAC / Black Hat / DEF CON / FIRST |
