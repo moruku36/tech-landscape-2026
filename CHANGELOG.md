@@ -5,9 +5,9 @@
 - Preserve the October 31 evidence cutoff, November 7 initial verification and limited November 8 follow-up checks. This maintenance pass is not a new full source audit.
 - Update both root READMEs: the MDDR 2026 / Cloudflare Q3 additions and CHANGELOG are already present; Japanese editions remain pending only for the five older conference notes.
 - Preserve the six exact-URL link-check exceptions added on November 8 after browser verification. Earlier statements that no configuration changed describe the November 7 draft, not the entire integrated branch. Source-monitor configuration remains unchanged.
-- The six exact-URL exceptions are based on the earlier CI 403 responses and separate browser reads recorded in the verification ledger; they do not establish a passing link check. The last observed pre-publication run (42466384758) failed downloading Lychee before checking links. Publication and current-head results are tracked on the pull request and Actions, not inferred from historical passing runs.
+- Run 42597449498 installed Lychee successfully and checked 965 link occurrences (276 unique), unlike the earlier download failure. Its four errors were three localized OpenAI final URLs already browser-reviewed in the November 8 ledger. Add only those three anchored exact-URL exceptions alongside the six original exceptions; no broader exclusion or arbitrary 403 acceptance. Browser reads do not establish passing CI; publication and current-head results are tracked on the pull request and Actions.
 
-10月31日の情報締切、11月7日の初回確認、11月8日の限定確認を保持し、全面再監査とは扱いません。英日READMEの古い保守案内を修正。11月8日の6 URL完全一致の検査例外は保持し、監視設定は変更しません。6 URLの例外は過去のCI 403と台帳の通常ブラウザ確認に基づくもので、リンク検査合格の証拠ではありません。公開前に最後に確認した実行（42466384758）はLychee取得時に失敗。公開・最新コミットのCI状態はPRとActionsで確認します。
+10月31日の情報締切、11月7日の初回確認、11月8日の限定確認を保持し、全面再監査とは扱いません。英日READMEの古い保守案内を修正。11月8日の6 URL完全一致の検査例外は保持し、監視設定は変更しません。6 URLの例外は過去のCI 403と台帳の通常ブラウザ確認に基づくもので、リンク検査合格の証拠ではありません。追加実行42597449498はLychee取得・965箇所の検査に成功し、台帳の日本語版最終URL 3種類・4箇所のみ403。本文確認記録に基づく3 URL完全一致の例外を追加し、全体除外は広げません。公開・最新コミットのCI状態はPRとActionsで確認します。
 
 ## 2026-10-31 evidence cutoff — verified 2026-11-07 JST
 

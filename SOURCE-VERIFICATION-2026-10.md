@@ -71,7 +71,15 @@ The November 7 entries above retain their original verification date. This secti
 | 2026-11-08 | https://investor.fortinet.com/news-releases/news-release-details/fortinet-2026-global-threat-landscape-report-reveals-surge-ai/ | https://investor.fortinet.com/news-releases/news-release-details/fortinet-2026-global-threat-landscape-report-reveals-surge-ai/ | 個別記事の本文にApril 30, 2026 at 9:10 AM EDTと2026年版レポートの公開を確認。観測対象は2025年。統計の全面再検証とは扱わない。 |
 | 2026-11-08 | https://community.oracle.com/products/oracleanalytics/discussion/29882/oracle-ai-world-2026-must-attend-sessions-for-aidp-oac-fdi/p1 | https://community.oracle.com/products/oracleanalytics/discussion/29882/oracle-ai-world-2026-must-attend-sessions-for-aidp-oac-fdi/p1 | 個別ページの本文と同タイトルを確認。公開Oct 14, 2026、更新Nov 4, 2026。本文にOracle AI World 2026 (Oct 25–28)と対象セッション一覧。更新日が締切後なので10月31日時点の本文不変や各登壇実施を証明しない。 |
 
-### Approved local handling / 承認後のローカル適用
+### CI follow-up — 2026-11-09 JST / CI追加確認
+
+Run 42597449498 at head 42401fd469ac4367b369dc7859771e391c74cb34 successfully installed Lychee and checked 965 link occurrences (276 unique). The remaining four errors are the three localized OpenAI final URLs already recorded in the November 8 browser table above: the event page appears twice, the announcement and recap once each. All four returned HTTP 403. This is a different failure from the earlier download error and is not evidence of a new browser verification or of permanent URL availability.
+
+The link-check workflow now adds only anchored, literal exclusions for those three recorded final URLs alongside the six original-URL exceptions. Original source URLs and the redirect observations remain unchanged. No broad OpenAI-domain exclusion or acceptance of arbitrary 403 responses was added. Subsequent current-head CI results remain authoritative.
+
+上表で11月8日に本文確認済みの日本語版最終URL 3種類・4箇所だけが、11月9日のCIで403となりました。Lychee取得には成功しており、過去の取得失敗と区別します。3 URL完全一致の例外のみ追加し、元URL・転送記録・情報締切・確認日を保持します。新たなブラウザ確認や恒久的な疎通は主張しません。
+
+### Approved local handling — 2026-11-08 (historical) / 承認後のローカル適用（過去記録）
 
 Retain the original source URLs. No permanent relocation has been established. Following owner approval on 2026-11-08, six anchored, literal-URL exclusions were applied locally to the link-check workflow, based on observed CI 403s and successful browser reads. This does not establish the cause of the 403s. No domain wildcard or acceptance of arbitrary 403 responses was added; every other URL remains subject to the existing checks. Additional push and merge each require separate owner approval. No additional CI execution was performed. / 本人承認により6 URL完全一致の例外だけをローカル適用。403の原因は未確定。全403許容・ドメイン全体除外は追加せず、元URLを保持。追加push・mergeはそれぞれ本人承認待ち。追加CIは未実行。
 

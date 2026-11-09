@@ -29,6 +29,8 @@ jobs:
         with:
           # Some publisher sites reject GitHub-hosted automation or fail HTTP/2
           # even though the links are valid in a normal browser.
+          # Exact OpenAI original/localized URLs: browser evidence is recorded
+          # in SOURCE-VERIFICATION-2026-10.md (2026-11-08); CI 403s on 2026-11-09.
           args: >-
             --verbose
             --no-progress
@@ -42,6 +44,9 @@ jobs:
             --exclude "^https://openai\.com/devday/2026/$"
             --exclude "^https://openai\.com/index/devday-2026/$"
             --exclude "^https://openai\.com/index/devday-2026-recap/$"
+            --exclude "^https://openai\.com/ja-JP/devday/2026/$"
+            --exclude "^https://openai\.com/ja-JP/index/devday-2026/$"
+            --exclude "^https://openai\.com/ja-JP/index/devday-2026-recap/$"
             --exclude "^https://investor\.fortinet\.com/news-releases/news-release-details/fortinet-2026-global-threat-landscape-report-reveals-surge-ai/$"
             --exclude "^https://community\.oracle\.com/products/oracleanalytics/discussion/29882/oracle-ai-world-2026-must-attend-sessions-for-aidp-oac-fdi/p1$"
             "**/*.md"
